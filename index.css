@@ -1,0 +1,228 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.hero{
+    background-image: url(IMG-1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: grid;
+    width: 1260px;
+    height: 622px;
+}
+.log{
+    display: grid;
+    grid-template-columns: 50px 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.log-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 2px;
+}
+.logo{
+    display: grid;
+    font-size: 10px;
+
+
+}
+.title{
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 130px;
+
+}
+.small-pic{
+    background-color: white;
+    border-radius: 20px;
+    border:1px solid rgb(99, 132, 240);
+    
+    color: rgb(95, 95, 95);
+    display: flex;
+    flex-direction: row;
+    text-align:left;
+    align-items: center;
+    width: 700pxd;
+    height: 130px;
+    padding: 8px;
+    position: absolute;
+    top: 550px;
+    left: 350px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 200px 0;
+}
+.container img{
+    width: 654px;
+    height: 400px;
+    border: 300px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+.text h1{
+   color: black;
+   font-size: 33px;
+   font-weight: 60px;
+   margin: 50px;
+}
+.text p{
+    background-color: white;
+    color: #1d1818;
+    width: 500px;
+    height: 100px;
+    border-radius: 300px;
+    font-size: 20px;
+    font-weight:bold ;
+    bottom: none;
+    margin-left: 50px;
+}
+.h3{
+    padding-top: 7px;
+}
+.reed{
+    background-color: rgb(122,204,245);
+    color: white;
+    width: 190px;
+    height: 71px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border:none;
+    margin-left: 50px;
+    margin-top:20px ;
+}
+.gellery{
+    text-align: center;
+    justify-content: center;
+    font-size: 33px;
+   /* display: grid; */
+    /* align-items: center; */
+    width: 1260px;
+    height: 1350px;
+    background-color: rgba(232,235,238,0.426);
+    /* margin: 0; */
+}
+.above-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pic1{
+    height: 380px;
+    margin-left: 130px;
+    width: 350px;
+    border-radius: 14px;
+
+}
+.pic2{
+   width: 620px;
+   margin-right: 120px;
+   border-radius: 14px;
+}
+.pic4{
+margin-right: 500px;
+}
+.bottom-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pic3{
+    width: 620px;
+    margin-left: 150px;
+    border-radius: 14px;
+}
+.pic5{
+    height: 380px;
+    width: 350px;
+    margin-right: 100px;
+    border-radius: 14px;
+}
+.img5{
+margin-top: -110px;
+}
+
+.gellery button{
+    width: 180px;
+    height: 70px;
+    color: black;
+    background-color: rgb(122,204,245);
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    margin: 50px;
+}
+.foot{
+    background-color: rgb(122,204,245);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 200px;
+   
+}
+.text-foot{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px;
+    font-style: italic;
+    padding: 10px;
+    font-size: 22px;
+    margin-left: 100px;
+
+
+}
+
+
+.send{
+    background-color: rgb(122,204,245);
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    
+    margin-left: 120px;
+
+}
+
+
+    .Name{
+            background-color: aliceblue;
+            color: darkgrey;
+            width:200px ;
+            height: 25px;
+            border-radius: 5px ;
+            border:rgb(122,204,245); 
+            font-size: 10px;
+            margin: 10px;
+            margin-right: 100px;
+            flex-direction: column;
+            justify-content: center;
+}
+.email{
+    background-color: aliceblue;
+    color: darkgrey;
+    width:200px ;
+    height: 25px;
+    border-radius: 5px ;
+    border:rgb(122,204,245); 
+    font-size: 10px;
+    margin: 10px;
+}
+.input-container h1{
+    margin-top: 50px;
+}
+
+
